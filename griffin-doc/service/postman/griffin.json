@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3afd5132-1e4a-4052-8f0a-c594b73d61d2",
+		"_postman_id": "d9f034ed-971b-4f1d-ae76-2e2b97187274",
 		"name": "Griffin Service",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21433300"
 	},
 	"item": [
 		{
@@ -13,10 +14,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/version",
 							"host": [
@@ -36,10 +33,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/version",
 									"host": [
@@ -117,10 +110,6 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/org",
 									"host": [
@@ -140,10 +129,6 @@
 									"originalRequest": {
 										"method": "GET",
 										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
 										"url": {
 											"raw": "http://localhost:8080/api/v1/org",
 											"protocol": "http",
@@ -215,10 +200,6 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/org/:org",
 									"host": [
@@ -245,10 +226,6 @@
 									"originalRequest": {
 										"method": "GET",
 										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
 										"url": {
 											"raw": "{{BASE_PATH}}/api/v1/org/:org",
 											"host": [
@@ -325,10 +302,6 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/org/measure/names",
 									"host": [
@@ -350,10 +323,6 @@
 									"originalRequest": {
 										"method": "GET",
 										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
 										"url": {
 											"raw": "{{BASE_PATH}}/api/v1/org/measure/names",
 											"host": [
@@ -420,18 +389,13 @@
 								}
 							]
 						}
-					],
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Get measures",
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/measures",
 							"host": [
@@ -451,10 +415,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/measures",
 									"host": [
@@ -525,10 +485,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/measures/:id",
 							"host": [
@@ -555,10 +511,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/measures/:id",
 									"host": [
@@ -636,10 +588,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/measures/owner/:owner",
 							"host": [
@@ -667,10 +615,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/measures/owner/:owner",
 									"host": [
@@ -1053,10 +997,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/jobs",
 							"host": [
@@ -1076,10 +1016,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/jobs",
 									"host": [
@@ -1150,10 +1086,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/jobs/config/:jobName",
 							"host": [
@@ -1181,10 +1113,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/jobs/config/:jobName",
 									"host": [
@@ -1263,10 +1191,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/jobs/instances?jobId=2&page=0&size=10",
 							"host": [
@@ -1301,10 +1225,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/jobs/instances?jobId=2&page=0&size=10",
 									"host": [
@@ -1390,10 +1310,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/jobs/health",
 							"host": [
@@ -1414,10 +1330,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/jobs/health",
 									"host": [
@@ -1496,7 +1408,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"measure.id\": 60,\r\n\t\"job.name\":\"job_name\",\r\n\t\"job.type\": \"batch\",\r\n    \"cron.expression\": \"0 0/4 * * * ?\",\r\n    \"cron.time.zone\": \"GMT+8:00\",\r\n    \"predicate.config\": {\r\n\t\t\"checkdonefile.schedule\":{\r\n\t\t\t\"interval\": \"1m\",\r\n\t\t\t\"repeat\": 2\r\n\t\t}\r\n    },\r\n    \"data.segments\": [\r\n        {\r\n            \"data.connector.name\": \"connector_name_source\",\r\n\t\t\t\"as.baseline\":true, \r\n            \"segment.range\": {\r\n                \"begin\": \"-1h\",\r\n                \"length\": \"1h\"\r\n            }\r\n        },\r\n        {\r\n            \"data.connector.name\": \"connector_name_target\",\r\n            \"segment.range\": {\r\n                \"begin\": \"-1h\",\r\n                \"length\": \"1h\"\r\n            }\r\n        }\r\n    ]\r\n}"
+							"raw": "{\r\n    \"measure.id\": 1,\r\n\t\"job.name\":\"job_name\",\r\n\t\"job.type\": \"batch\",\r\n    \"cron.expression\": \"0 0/4 * * * ?\",\r\n    \"cron.time.zone\": \"GMT+8:00\",\r\n    \"predicate.config\": {\r\n\t\t\"checkdonefile.schedule\":{\r\n\t\t\t\"interval\": \"1m\",\r\n\t\t\t\"repeat\": 2\r\n\t\t}\r\n    },\r\n    \"data.segments\": [\r\n        {\r\n            \"data.connector.name\": \"connector_name_source\",\r\n\t\t\t\"as.baseline\":true, \r\n            \"segment.range\": {\r\n                \"begin\": \"-1h\",\r\n                \"length\": \"1h\"\r\n            }\r\n        },\r\n        {\r\n            \"data.connector.name\": \"connector_name_target\",\r\n            \"segment.range\": {\r\n                \"begin\": \"-1h\",\r\n                \"length\": \"1h\"\r\n            }\r\n        }\r\n    ]\r\n}"
 						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/jobs",
@@ -1925,10 +1837,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/jobs/instances/:id",
 							"host": [
@@ -1956,10 +1864,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/jobs/instances/:id",
 									"host": [
@@ -1984,6 +1888,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"header": [],
 							"cookie": [],
 							"body": "{\n    \"healthyJobCount\": 1,\n    \"jobCount\": 2\n}"
 						}
@@ -1999,10 +1904,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metrics",
 							"host": [
@@ -2022,10 +1923,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metrics",
 									"host": [
@@ -2096,10 +1993,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metrics/values?metricName=job_no_predicate_day&size=5&offset=0",
 							"host": [
@@ -2134,10 +2027,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metrics/values?metricName=job_no_predicate_day&size=5&offset=0",
 									"host": [
@@ -2463,10 +2352,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metrics/values/:jobInstanceId",
 							"host": [
@@ -2494,10 +2379,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metrics/values/:jobInstanceId",
 									"host": [
@@ -2522,6 +2403,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"header": [],
 							"cookie": [],
 							"body": "{\n    \"name\": some_job,\n    \"tmst\": 1553526960000\n    \"applicationId\": application_1549876136110_0237\n    \"value\": {\n    \"total\": 74}}"
 						}
@@ -2537,10 +2419,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metadata/hive/dbs/tables",
 							"host": [
@@ -2563,10 +2441,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metadata/hive/dbs/tables",
 									"host": [
@@ -2640,10 +2514,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metadata/hive/dbs",
 							"host": [
@@ -2665,10 +2535,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metadata/hive/dbs",
 									"host": [
@@ -2740,10 +2606,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metadata/hive/tables/names?db=default",
 							"host": [
@@ -2772,10 +2634,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metadata/hive/tables/names?db=default",
 									"host": [
@@ -2854,10 +2712,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metadata/hive/table?db=default&table=demo_src",
 							"host": [
@@ -2889,10 +2743,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metadata/hive/table?db=default&table=demo_src",
 									"host": [
@@ -2975,10 +2825,6 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{BASE_PATH}}/api/v1/metadata/hive/tables?db=default",
 							"host": [
@@ -3006,10 +2852,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "{{BASE_PATH}}/api/v1/metadata/hive/tables?db=default",
 									"host": [
