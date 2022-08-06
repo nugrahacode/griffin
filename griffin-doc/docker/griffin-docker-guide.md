@@ -70,7 +70,7 @@ Griffin docker images are pre-built on docker hub, users can pull them to try Ap
 We have prepared two postman configuration files, you can download them from [json files](../service/postman).<br><br>For sake of usage, you need to import two files into postman firstly.<br><br>
 ![import ](../img/devguide/import_postman_conf.png)<br><br>
 And change the initial environment `BASE_PATH` value to `<your local IP address>:38080`.<br><br>
-![update env](../img/devguide/revise_postman_env.png)<br><br>
+![update env](../img/devguide/revise_postman_env_edit.png)<br><br>
 4. You can try the api `Basic -> Get griffin version`, to make sure Apache Griffin service has started up.<br><br>
 ![update env](../img/devguide/call_postman.png)<br><br>
 5. Add an accuracy measure through api `Measures -> Add measure`, to create a measure in Apache Griffin.<br><br>
